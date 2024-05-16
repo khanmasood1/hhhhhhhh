@@ -1,0 +1,81 @@
+*{
+    /* padding: 0px; */
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+header{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 15px;
+}
+#menu ul{
+    display: flex;
+}           
+#menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+#social-link ul{
+    list-style: none;
+    display: flex;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+#social-link ul li a{
+    /* text-decoration: none; */
+    padding: 10px;
+    
+}
+.our-services{
+    padding: 10px;
+    margin: 10px;
+}
+
+.our-services h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
+/* Our service start */
+.contaniner{
+display: flex;
+
+/* justify-content: space-between; */
+margin-top: 30px;
+}
+.card{
+    /* padding: 20px; */
+    /* margin-left: 100px; */
+}
+
+.aside{
+    background-color: lightgreen;
+    width: 150px;
+    height: 360px;
+}
+.aside ul li{
+    padding-left: 20px;
+    height: 30px;
+}
+/* Our services end */
+.star{
+    color: gold;
+}

@@ -1,0 +1,50 @@
+.container{
+    border: 1px solid red;
+}
+.row{
+    border: 1px solid wheat;
+}
+.col-sm-12{
+    background-color: gray;
+}
+#header{
+    background-color: gray;
+}
+#navbar{
+    background-color: tan;
+    display: flex;
+}
+#navbar ul{
+    display: inline-flex;
+}
+#navbar ul li{
+    padding: 10px;
+    /* padding-top: 3px; */
+    list-style: none;
+    padding-top: 15px;
+    height: 40px;
+}
+#navbar ul li a{
+ color: white;
+ text-decoration: none;
+ 
+}
+#sidebar{
+    background-color: rgb(139, 245, 201);
+    height: 350px;
+}
+#sidebar ul li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+#sidebar ul li a{
+    color: white;
+    font-size: 20px;
+}
+#footer{
+    background-color: red;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+}

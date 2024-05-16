@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: green;
+    padding: 8px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main ul{
+    display: flex;
+    /* padding: 10px; */
+}
+.main ul li{
+    padding: 13px;
+    list-style: none;
+}
+.main ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+#logo a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#social-link ul li a{
+    /* text-decoration: none; */
+    padding: 10px;
+}
+#social-link ul{
+    list-style: none;
+    display: flex;
+}
